@@ -1,0 +1,21 @@
+body {
+  box-sizing: border-box;
+}
+
+#main-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#palindrome-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
